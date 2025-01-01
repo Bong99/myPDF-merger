@@ -6,5 +6,8 @@ You can drag and drop the PDF files from File Explorer then merge the files into
 
 This program does use python with library pypdf for pdf merging, then use tkinter as UI part. It also usetkinterDnD for the drag and drop function.
 
+Windows platform can download the exe file to run.
+
+
 Enjoy.
 
