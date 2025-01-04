@@ -127,7 +127,8 @@ def drag_command(event):
 
 
 
-about_label_text = ('Author: Paul Chow\n'
+about_label_text = ('myPDF Merger v1.0\n'
+    'Author: Paul Chow\n'
     'Email: bong99@gmail.com\n'
     'License: MIT License\n\n'
     'Github: https://github.com/Bong99/myPDF-merger'    

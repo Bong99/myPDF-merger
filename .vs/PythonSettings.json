@@ -1,3 +1,4 @@
 {
-  "Interpreter": "env\\Scripts\\python.exe"
+  "SuppressConfigureTestFrameworkPrompt": "true",
+  "Interpreter": "myPDF-merger\\Scripts\\python.exe"
 }
