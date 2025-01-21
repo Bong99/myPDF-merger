@@ -26,6 +26,8 @@ def moveup():
         text = listbox.get(pos)
         listbox.delete(pos)
         listbox.insert(pos-1, text)
+        listbox.selection_set(pos-1)
+
 
 # Move selected item down in listbox
 def movedown():
@@ -42,6 +44,7 @@ def movedown():
         text = listbox.get(pos)
         listbox.delete(pos)
         listbox.insert(pos+1, text)
+        listbox.selection_set(pos+1)
 
  # Remove selected item in listbox
 def removeSelected():
@@ -127,10 +130,10 @@ def drag_command(event):
 
 
 
-about_label_text = ('myPDF Merger v1.0\n'
+about_label_text = ('myPDF Merger v1.0 Build 25012101\n'
     'Author: Paul Chow\n'
     'Email: bong99@gmail.com\n'
-    'License: MIT License\n\n'
+    'License: MIT License\n\n'    
     'Github: https://github.com/Bong99/myPDF-merger'    
     )
 
